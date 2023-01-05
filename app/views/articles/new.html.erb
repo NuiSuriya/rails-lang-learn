@@ -1,8 +1,10 @@
-<h1>This is NEW page</h1>
+<div class="container">
+  <h1>This is NEW page</h1>
 
-<%= simple_form_for(@article) do |f| %>
-  <%= f.input :title %>
-  <%= f.input :content %>
-  <%= f.input :category %>
-  <%= f.submit %>
-<% end %>
+  <%= simple_form_for(@article) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :content %>
+    <%= f.input :category %>
+    <%= f.submit %>
+  <% end %>
+</div>
